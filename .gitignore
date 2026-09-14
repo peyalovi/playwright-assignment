@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Playwright
+playwright-report/
+test-results/
+**/playwright-report/
+**/test-results/
+playwright/.cache/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
