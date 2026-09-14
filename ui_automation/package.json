@@ -1,0 +1,16 @@
+{
+  "name": "orangehrm-part-a",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:q1": "playwright test tests/q1-invalid-login.spec.js",
+    "test:q2": "playwright test tests/q2-add-employee.spec.js",
+    "test:q3": "playwright test tests/q3-admin-user.spec.js",
+    "test:q4": "playwright test tests/q4-leave.spec.js",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
